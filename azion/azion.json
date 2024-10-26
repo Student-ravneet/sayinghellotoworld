@@ -1,0 +1,42 @@
+{
+  "name": "sayinghellotoworld",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241026150113",
+  "not-first-run": true,
+  "function": {
+    "id": 31203,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29892,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 182214
+  },
+  "application": {
+    "id": 1729952136,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1729950788,
+    "name": "sayinghellotoworld",
+    "domain_name": "j4ty3j4xab.map.azionedge.net",
+    "url": "https://j4ty3j4xab.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 311652,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
